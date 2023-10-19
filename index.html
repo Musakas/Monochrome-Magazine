@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monochrome Magazine</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet">
+
+    <!--STYLESHEETS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/rødfane.png" type="image/x-icon"/>
+</head>
+<!--HEADER CODE-->
+<body>
+    <header>
+        <nav>
+            <div id="forside-container">
+                <div id="logo">
+                    <a href="index.html"><img src="images/Logo mm.png" alt="logo"></a>
+                </div>
+                <img src="images/Cropped forside.jpg" alt="forsidebillede" id="forsidebillede">
+                <nav id="nav-links">
+                    <ul>
+                        <li><a href="om.html">OM</a></li>
+                        <li><a href="#">KAMERA</a></li>
+                        <li>
+                            <a href="#">ARTIKLER</a>
+                            <ul class="dropdown">
+                                <li><a href="kendditkamera.html">KEND DIT KAMERA</a></li>
+                                <li><a href="streetphotography.html">STREET PHOTOGRAPHY</a></li>
+                                <li><a href="portrætbilleder.html">PORTRÆTBILLEDER</a></li>
+                            </ul>
+                        <li><a href="kontakt.html">KONTAKT</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <!--MAIN CODE-->
+    <main>
+        <!--FØRSTE AFSNIT-->
+        <h1 id="velkommen">VELKOMMEN TIL MONOCHROME MAGAZINE</h1>
+        <div id="intro-container">
+            <div class="eget-billede">
+                <img src="images/facebook pb.png" alt="mathias" width="100%">
+            </div>
+            <div class="intro-tekst">
+                <p>Hej, mit navn er Mathias Risom og jeg er selvstændig fotograf.
+                    <br> <br>
+                    Jeg har lavet Monochrome Magazine til dig som ønsker at blive bedre til at fotografere - uanset om
+                    du er spritny eller lettere øvet. Magasinet er fyldt med tips og tricks til hvordan du kommer i
+                    gang, hvad du skal bruge og hvordan du får skabt det udtryk du ønsker.
+                    <br><br>
+                    Hver måned udkommer der et nyt magasin, som kan give dig nogle redskaber og øvelser du kan bruge med
+                    det samme!
+                    <br><br>
+                    Inde under “KAMERA” kan du finde et overslag over de forskellige typer af kameraer og hvad fordelene
+                    og ulemperne kan være ved det ene eller det andet kamera.
+                    <br><br>
+                    Nederst på siden kan du tilmelde dig nyhedsbrevet så du bliver underrettet, så snart der kommer nyt
+                    indhold på siden.
+                </p>
+            </div>
+        </div>
+        <!--KEND DIT KAMERA-->
+        <h1 id="oktober2023">Oktober 2023</h1>
+        <h3 id="kendditkamera">Kend dit kamera</h3>
+        <br>
+        <div id="kamera-container">
+            <div class="kamera-billede">
+                <img src="images/kamerabillede.png" alt="kameraforside" id="kameraforside" width=100%>
+            </div>
+            <div class="kamera-tekst">
+                <p>I denne måneds magasin handler det hele om at lære dit <br>kamera bedre at kende.
+                    <br><br>
+                    Uanset om du bruger Canon, Sony, Nikon eller Leica, er det vigtigt at vide hvad lukketid,
+                    blænde og ISO gør ved et billede. Men hvad er det, hvad betyder det og hvordan <br> bruger man
+                    dem?
+                </p>
+                <a href="kendditkamera.html" id="artikel-link">Læs mere her...</a>
+            </div>
+        </div>
+
+    </main>
+    <!--FOOTER CODE-->
+    <footer class="footer-content">
+        <div id="infobox">
+            <p>Monochrome Magazine</p>
+            <br>
+            <p>Telefon: +(45) 20 31 36 31</p>
+            <p>E-mail: info@monochrome.com</p>
+            <br>
+            <p>Malmøgade 2, st. 2</p>
+            <p>Aarhus N 8200, Denmark</p>
+        </div>
+        <div id="footer-midte">
+        <h3 id="nyhedsbrev-titel">Nyhedsbrev:</h3>
+            <div class="nyhedsbrev-box">
+                <form action="index.html">
+                <div class="form-box">
+                <input type="text" name="emailadresse" placeholder="E-mail adresse...">
+                <button type="submit">Tilmeld</button>
+                </div>
+                </form>
+                </div>
+                <p><br><br>All rights reserved © Mathias Risom 2023</p>
+            </div>
+        </div>
+        <div id="footer-logo">
+            <img src="images/Logo mm.png" alt="footerlogo">
+        </div>
+    </footer>
+</body>
+
+</html>

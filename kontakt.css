@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p,
+h2,
+h3,
+h1,
+nav {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 300;
+}
+
+/** --- HEADER --- **/
+#logosort {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/** --- MENU / DROPDOWN MENU --- **/
+#nav-linkssort {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 5px 25px;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+ul li ul.dropdown {
+    width: 150px;
+    background: #FFF;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    margin: 5px 0;
+}
+
+ul li ul.dropdown a {
+    display: block;
+    padding: 10px 15px;
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+}
+ul li a:hover {
+    color: #d9d9d9;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    margin: 0px;
+
+}
+
+.dropdown a {
+    color: black;
+}
+
+/** --- FOOTER --- **/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #899ead;
+    color: #fff;
+    padding: 20px;
+}
+
+#nyhedsbrev-titel {
+    font-weight: 300;
+    text-align: center;
+    font-size: 14px;
+    color: #476376;
+}
+
+#footer-midte {
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-box {
+    padding: 10px;
+}
+
+.form-box input {
+    font-size: 12px;
+    color: #767676;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    background: #d9d9d9;
+}
+
+.form-box button {
+    color: #d9d9d9;
+    padding: 10px 15px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background: #476376;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-box button:hover {
+    background: #375368;
+}
+
+#footermidte {
+    flex-direction: column;
+}
+/** --- SIDE INDHOLD --- **/
+#kontakt-container{
+    padding-top: 200px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#kontaktlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

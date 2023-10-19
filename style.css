@@ -1,0 +1,244 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+p,
+h3,
+h2,
+h1,
+nav {
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#forside-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#forsidebillede {
+    width: 100%;
+}
+
+/** --- HEADER --- **/
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+/** --- MENU / DROPDOWN MENU --- **/
+#nav-links {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 5px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+
+ul li ul.dropdown {
+    width: 150px;
+    background: #FFF;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    margin: 5px 0;
+}
+
+ul li ul.dropdown a {
+    display: block;
+    padding: 10px 15px;
+    color: #000;
+    text-decoration: none;
+    text-align: left;
+}
+
+ul li a:hover {
+    color: #d9d9d9;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    margin: 0px;
+}
+
+.dropdown a {
+    color: black;
+}
+
+/** --- FOOTER --- **/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #899ead;
+    color: #fff;
+    padding: 20px;
+    margin-top: 120px;
+}
+
+#nyhedsbrev-titel {
+    font-weight: 300;
+    text-align: center;
+    font-size: 14px;
+    color: #476376;
+}
+
+#footer-midte {
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-box {
+    padding: 10px;
+}
+
+.form-box input {
+    font-size: 12px;
+    color: #767676;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    background: #d9d9d9;
+}
+
+.form-box button {
+    color: #d9d9d9;
+    padding: 10px 15px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background: #476376;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-box button:hover {
+    background: #375368;
+}
+
+#footermidte {
+    flex-direction: column;
+}
+
+/** --- INTRODUKTION TIL HJEMMESIDEN --- **/
+main {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#velkommen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+    font-weight: 300;
+}
+
+/** --- INTRO-AFSNIT --- **/
+#intro-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.eget-billede {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.intro-tekst {
+    flex: 1;
+    max-width: 50%;
+    margin-top: 140px;
+    padding: 20px;
+    background-color: #d9d9d9;
+    box-sizing: border-box;
+}
+
+
+
+
+/** --- KEND DIT KAMERA TEASER --- **/
+#oktober2023 {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 300;
+}
+
+#kendditkamera {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-weight: 200;
+    color: #767676;
+}
+
+#kamera-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-bottom: 60px;
+}
+
+.kamera-billede {
+    flex: 1;
+    max-width: 70%;
+    top: 70px;
+    right:50px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.kamera-tekst {
+    flex: 1;
+    max-width: 45%;
+    padding: 20px;
+    background-color: #d9d9d9;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+#artikel-link {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    color: #767676;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: italic;
+    z-index: 2;
+}
+
